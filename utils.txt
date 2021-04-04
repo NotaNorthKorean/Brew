@@ -1,0 +1,88 @@
+Note: List on the left compiled from https://linuxfromscratch.org/
+
+[ X ] = Does not need replacement
+[-->] = Replacement(s) found
+[?->] = Optional
+[--X] = Dependency with no use
+[ ? ] = Replacement may not be needed
+
+
+Util name	Status	Replacement(s)
+
+Bc              [ X ]
+Bzip2           [-->]   Busybox
+Check           [ X ]
+E2fsprogs       [ X ]
+Elfutils        [ X ]
+Eudev           [ X ]
+Expat           [ X ]
+Expect          [ X ]
+File            [ X ]
+Flex            [ X ]
+Iana-Etc        [ X ]
+Intltool        [ X ]
+IPRoute2        [-->]   Busybox
+Kbd             [ X ]
+Kmod            [ X ]
+Less            [-->]   Busybox
+Libcap          [ X ]
+Libffi          [ X ]
+Linux           [ X ]
+Man-pages       [ X ]
+Meson           [ X ]
+MPFR            [ X ]
+Ninja           [ X ]
+OpenSSL         [?->]   LibreSSL
+Perl            [ X ]
+Pkg-config      [ X ]
+Procps          [ X ]
+Psmisc          [ X ]
+Python          [ X ]
+Shadow          [ X ]
+Sysklogd        [-->]   Busybox
+Systemd         [-->]   OpenRC, Busybox
+Tcl             [ X ]
+Time Zone Data  [ X ]
+Udev            [ ? ]   alias: anduin
+Util-linux      [ X ]
+Vim             [ X ]
+XML Parser      [ X ]
+Xz Utils        [ X ]
+Zlib            [ ? ]
+Zstd            [ ? ]
+GNU Acl         [
+GNU Attr        [
+GNU Autoconf    [
+GNU Automake    [
+GNU Bash        [-->]   zsh, sh, Busybox ash
+GNU Binutils    [-->]   Elf tool chain
+GNU Bison       [
+GNU Coreutils   [-->]   Busybox, lobase, sbase, Plan9   |       GPLv2, ?, ?, MIT\
+GNU DejaGNU     [
+GNU Diffutils   [-->]   Busybox?
+GNU Findutils   [-->]   Busybox (find, xargs)
+GNU Gawk        [-->]   Busybox
+GNU GCC         [
+GNU GDBM        [
+GNU Gettext     [
+GNU Glibc       [-->]   musl libc
+GNU GMP         [
+GNU Gperf       [
+GNU Grep        [-->]   Busybox
+GNU Groff       [
+GNU GRUB        [-->]   Busybox, GAG, LILO, Syslinux    |       ?
+GNU Gzip        [-->]   Busybox
+GNU Inetutils   [-->]   Busybox
+GNU Libpipeline [--X]
+GNU Libtool     [-->]   CMake?
+GNU M4          [-->]   Quasar M4
+GNU Make        [-->]   CMake
+GNU Man-DB      [-->]   Busybox
+GNU MPC         [--X]
+GNU Ncurses     [-->]   NetBSD-curses
+GNU Patch       [-->]   Busybox
+GNU Readline    [-->]   Linenoise, tecla
+GNU Sed         [-->]   Busybox
+GNU Sysvinit    [-->]   Busybox
+GNU Tar         [-->]   Busybox
+GNU Texinfo     [-->]   LaTeX
