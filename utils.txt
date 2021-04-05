@@ -9,7 +9,7 @@ Note: List on the left compiled from https://linuxfromscratch.org/
 
 Util name	Status	Replacement(s)
 
-Bc              [ X ]
+Bc              [-->]   FreeBSD bc
 Bzip2           [-->]   Busybox
 Check           [ X ]
 E2fsprogs       [ X ]
